@@ -1,0 +1,40 @@
+.post-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.post-category {
+    background-color: #f2f2f2;
+    color: #666666;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.post-date {
+    color: #999999;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.post-content-container {
+    max-height: 150px; /* 최대 높이를 지정합니다 */
+    overflow: hidden;
+}
+
+.post-content {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    overflow: auto; /* 스크롤바를 추가합니다 */
+}
